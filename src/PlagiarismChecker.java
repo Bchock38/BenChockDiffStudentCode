@@ -21,9 +21,10 @@ public class PlagiarismChecker {
         // TODO Complete this function to return the length of the longest shared substring.
         // Create array
         int longest = 0;
-
-//        int[] doc1chars = makePaths(doc1,doc2);
-//        return longestTrend(doc1chars);
+            if (doc1.length() > doc2.length()){
+                int[] doc1chars = makePaths(doc1,doc2);
+                return longestTrend(doc1chars);
+            }
         int[] doc2chars = makePaths(doc2, doc1);
         return longestTrend(doc2chars);
     }
