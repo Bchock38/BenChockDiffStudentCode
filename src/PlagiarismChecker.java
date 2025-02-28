@@ -19,12 +19,17 @@ public class PlagiarismChecker {
     public static int longestSharedSubstring(String doc1, String doc2) {
 
         // TODO Complete this function to return the length of the longest shared substring.
+        // HELLOOOOOO
+        return 0;
+    }
+
+
+    public static int longestSharedSubstring1 (String doc1, String doc2){
         // Create array
-        int longest = 0;
-            if (doc1.length() > doc2.length()){
-                int[] doc1chars = makePaths(doc1,doc2);
-                return longestTrend(doc1chars);
-            }
+        if (doc1.length() > doc2.length()){
+            int[] doc1chars = makePaths(doc1,doc2);
+            return longestTrend(doc1chars);
+        }
         int[] doc2chars = makePaths(doc2, doc1);
         return longestTrend(doc2chars);
     }
