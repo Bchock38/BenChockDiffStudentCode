@@ -7,6 +7,7 @@ Name: YOUR NAME HERE
 | 2/26    | 12:45-1:45 |                                                                                                  I thought of idea. count the location of string 1 in string 2 to create an array with the number that corresponds to location so you just need to find the longest path in that array |
 | 2/27    | 9:30-10:30 |                                                                                                      Finished coding solutions. no longer any errors their was a lot of string and index out of bound errors. However doesn't pass test even though I confirmed the arrays are correct |
 | 2/27    |  10:30-11  | Got it to pass test small, but thats it. It's too difficult to debug for other test they're too big. Though Mr. Blick is welcome to try and fix my code to make it work. I ahve confirmed it has worked with to strings that are only letters I think the puncation is throwing it off |
+| 3/4     |  9 - 9:20  |                                                                                                                                                                                                 Started and finished making tabulation approach. The code solves all cases efficiantly |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
